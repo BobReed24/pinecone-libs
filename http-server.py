@@ -1,10 +1,9 @@
+ver = "V0.1.0"
 import argparse
 import http.server
 import socketserver
 import flask
 import sys
-
-ver = "V0.1.0"
 
 def run_server(ip, inbound_port, outbound_port):
     handler = http.server.SimpleHTTPRequestHandler
